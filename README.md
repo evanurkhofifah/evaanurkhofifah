@@ -20,6 +20,5 @@ This repository contains the code for my personal portfolio and CV website. It i
 - **HTML**: For the structure of the website.
 - **CSS**: For styling and layout.
 - **JavaScript**: For interactive elements.
-- **Bootstrap**: For responsive design (if used).
-- **[Any other frameworks or libraries]**
+- **Bootstrap**: For responsive design.
 

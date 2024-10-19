@@ -562,6 +562,13 @@ a:focus {
     margin: 0;
 }
 
+.education ul {
+    list-style-type: disc;
+    font-size: 14px;
+    padding: 4px;
+    margin: 0;
+}
+
 
 /**********************************/
 /********* Experience CSS *********/
@@ -657,6 +664,105 @@ a:focus {
 }
 
 .experience li:last-child {
+    border-bottom: none;
+    /* Menghilangkan garis bawah pada item terakhir */
+}
+
+
+/**********************************/
+/********* Porject CSS *********/
+/**********************************/
+.project {
+    position: relative;
+    padding: 60px 30px;
+    background: #ffffff;
+    border-bottom: 30px solid #2B3D5B;
+}
+
+.project .exp-col {
+    position: relative;
+    width: 100%;
+    padding: 20px 0 20px 20px;
+    border-left: 1px solid #C9A959;
+    border-bottom: 1px solid #C9A959;
+}
+
+.project .col-md-12:first-child .exp-col {
+    padding-top: 0;
+}
+
+.project .col-md-12:last-child .exp-col {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .project .col-md-12:nth-child(-n+1) .exp-col {
+        padding-top: 0;
+    }
+
+    .project .col-md-12:last-child .exp-col,
+    .project .col-md-12:nth-last-child(1) .exp-col {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
+
+.project .exp-col span {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.project .exp-col span::before {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #C9A959;
+    top: 5px;
+    left: -26px;
+    border-radius: 5px;
+}
+
+.project .exp-col span i {
+    color: #C9A959;
+}
+
+.project .exp-col h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.project .exp-col h4 {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.project .exp-col h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.project .exp-col p {
+    margin: 0;
+}
+
+.project ul {
+    list-style-type: disc;
+    font-size: 14px;
+    padding: 4px;
+    margin: 0;
+}
+
+.project li:last-child {
     border-bottom: none;
     /* Menghilangkan garis bawah pada item terakhir */
 }
